@@ -17,4 +17,11 @@ namespace MyTranscript
             InitializeComponent();
         }
     }
+    class Course
+    {
+        public string CourseID { get; set; }
+        public string CourseName { get; set; }
+        public string CourseCredit { get; set; }
+        public string Grade { get; set; }
+    }
 }
