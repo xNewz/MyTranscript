@@ -31,15 +31,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBoxCourseID = new System.Windows.Forms.TextBox();
-            this.textBoxCourseName = new System.Windows.Forms.TextBox();
-            this.textBoxCourseCredit = new System.Windows.Forms.TextBox();
-            this.textBoxGrade = new System.Windows.Forms.TextBox();
             this.buttonAddCourse = new System.Windows.Forms.Button();
+            this.textBoxGrade = new System.Windows.Forms.TextBox();
+            this.textBoxCourseCredit = new System.Windows.Forms.TextBox();
+            this.textBoxCourseName = new System.Windows.Forms.TextBox();
+            this.textBoxCourseID = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.dataGridViewCourse = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCourse)).BeginInit();
@@ -90,32 +90,47 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add new course";
             // 
-            // label3
+            // buttonAddCourse
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(0, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(113, 25);
-            this.label3.TabIndex = 0;
-            this.label3.Text = " Course ID";
+            this.buttonAddCourse.Location = new System.Drawing.Point(303, 147);
+            this.buttonAddCourse.Name = "buttonAddCourse";
+            this.buttonAddCourse.Size = new System.Drawing.Size(87, 31);
+            this.buttonAddCourse.TabIndex = 8;
+            this.buttonAddCourse.Text = "Add";
+            this.buttonAddCourse.UseVisualStyleBackColor = true;
+            this.buttonAddCourse.Click += new System.EventHandler(this.AddGrade);
             // 
-            // label4
+            // textBoxGrade
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 73);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(143, 25);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Course Name";
+            this.textBoxGrade.Location = new System.Drawing.Point(154, 147);
+            this.textBoxGrade.Name = "textBoxGrade";
+            this.textBoxGrade.Size = new System.Drawing.Size(100, 31);
+            this.textBoxGrade.TabIndex = 7;
+            this.textBoxGrade.Text = "B+";
             // 
-            // label5
+            // textBoxCourseCredit
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 109);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 25);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Credit";
+            this.textBoxCourseCredit.Location = new System.Drawing.Point(154, 110);
+            this.textBoxCourseCredit.Name = "textBoxCourseCredit";
+            this.textBoxCourseCredit.Size = new System.Drawing.Size(100, 31);
+            this.textBoxCourseCredit.TabIndex = 6;
+            this.textBoxCourseCredit.Text = "3";
+            // 
+            // textBoxCourseName
+            // 
+            this.textBoxCourseName.Location = new System.Drawing.Point(154, 73);
+            this.textBoxCourseName.Name = "textBoxCourseName";
+            this.textBoxCourseName.Size = new System.Drawing.Size(236, 31);
+            this.textBoxCourseName.TabIndex = 5;
+            this.textBoxCourseName.Text = "Computer Laboratory";
+            // 
+            // textBoxCourseID
+            // 
+            this.textBoxCourseID.Location = new System.Drawing.Point(154, 34);
+            this.textBoxCourseID.Name = "textBoxCourseID";
+            this.textBoxCourseID.Size = new System.Drawing.Size(133, 31);
+            this.textBoxCourseID.TabIndex = 4;
+            this.textBoxCourseID.Text = "12345678";
             // 
             // label6
             // 
@@ -126,46 +141,32 @@
             this.label6.TabIndex = 3;
             this.label6.Text = "Grade";
             // 
-            // textBoxCourseID
+            // label5
             // 
-            this.textBoxCourseID.Location = new System.Drawing.Point(154, 34);
-            this.textBoxCourseID.Name = "textBoxCourseID";
-            this.textBoxCourseID.Size = new System.Drawing.Size(133, 31);
-            this.textBoxCourseID.TabIndex = 4;
-            this.textBoxCourseID.Text = "12345678";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(6, 109);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(69, 25);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Credit";
             // 
-            // textBoxCourseName
+            // label4
             // 
-            this.textBoxCourseName.Location = new System.Drawing.Point(154, 73);
-            this.textBoxCourseName.Name = "textBoxCourseName";
-            this.textBoxCourseName.Size = new System.Drawing.Size(236, 31);
-            this.textBoxCourseName.TabIndex = 5;
-            this.textBoxCourseName.Text = "Computer Laboratory";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 73);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(143, 25);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Course Name";
             // 
-            // textBoxCourseCredit
+            // label3
             // 
-            this.textBoxCourseCredit.Location = new System.Drawing.Point(154, 110);
-            this.textBoxCourseCredit.Name = "textBoxCourseCredit";
-            this.textBoxCourseCredit.Size = new System.Drawing.Size(100, 31);
-            this.textBoxCourseCredit.TabIndex = 6;
-            this.textBoxCourseCredit.Text = "3";
-            // 
-            // textBoxGrade
-            // 
-            this.textBoxGrade.Location = new System.Drawing.Point(154, 147);
-            this.textBoxGrade.Name = "textBoxGrade";
-            this.textBoxGrade.Size = new System.Drawing.Size(100, 31);
-            this.textBoxGrade.TabIndex = 7;
-            this.textBoxGrade.Text = "B+";
-            // 
-            // buttonAddCourse
-            // 
-            this.buttonAddCourse.Location = new System.Drawing.Point(303, 147);
-            this.buttonAddCourse.Name = "buttonAddCourse";
-            this.buttonAddCourse.Size = new System.Drawing.Size(87, 31);
-            this.buttonAddCourse.TabIndex = 8;
-            this.buttonAddCourse.Text = "Add";
-            this.buttonAddCourse.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(0, 37);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(113, 25);
+            this.label3.TabIndex = 0;
+            this.label3.Text = " Course ID";
             // 
             // dataGridViewCourse
             // 

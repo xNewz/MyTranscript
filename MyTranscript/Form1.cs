@@ -16,6 +16,15 @@ namespace MyTranscript
         {
             InitializeComponent();
         }
+
+        private void AddGrade(object sender, EventArgs e)
+        {
+            Course newCourse = new Course();
+            newCourse.CourseID = textBoxCourseID.Text;
+            newCourse.CourseName = textBoxCourseName.Text;
+            newCourse.CourseCredit = textBoxCourseID.Text;
+            newCourse.Grade = textBoxGrade.Text;
+        }
     }
     class Course
     {
