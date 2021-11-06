@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelUniversityName = new System.Windows.Forms.Label();
+            this.labelFacultyName = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.buttonAddCourse = new System.Windows.Forms.Button();
             this.textBoxGrade = new System.Windows.Forms.TextBox();
@@ -46,17 +46,18 @@
             this.tabPageYear1Sem2 = new System.Windows.Forms.TabPage();
             this.dataGridViewY1S2 = new System.Windows.Forms.DataGridView();
             this.tabPageYear2Sem1 = new System.Windows.Forms.TabPage();
-            this.tabPageYear2Sem2 = new System.Windows.Forms.TabPage();
             this.dataGridViewY2S1 = new System.Windows.Forms.DataGridView();
+            this.tabPageYear2Sem2 = new System.Windows.Forms.TabPage();
             this.dataGridViewY2S2 = new System.Windows.Forms.DataGridView();
             this.tabPageYear3Sem1 = new System.Windows.Forms.TabPage();
-            this.tabPageYear3Sem2 = new System.Windows.Forms.TabPage();
             this.dataGridViewY3S1 = new System.Windows.Forms.DataGridView();
+            this.tabPageYear3Sem2 = new System.Windows.Forms.TabPage();
             this.dataGridViewY3S2 = new System.Windows.Forms.DataGridView();
             this.tabPageYear4Sem1 = new System.Windows.Forms.TabPage();
-            this.tabPageYear4Sem2 = new System.Windows.Forms.TabPage();
             this.dataGridViewY4S1 = new System.Windows.Forms.DataGridView();
+            this.tabPageYear4Sem2 = new System.Windows.Forms.TabPage();
             this.dataGridViewY4S2 = new System.Windows.Forms.DataGridView();
+            this.buttonSave = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY1S1)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -64,47 +65,48 @@
             this.tabPageYear1Sem2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY1S2)).BeginInit();
             this.tabPageYear2Sem1.SuspendLayout();
-            this.tabPageYear2Sem2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY2S1)).BeginInit();
+            this.tabPageYear2Sem2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY2S2)).BeginInit();
             this.tabPageYear3Sem1.SuspendLayout();
-            this.tabPageYear3Sem2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY3S1)).BeginInit();
+            this.tabPageYear3Sem2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY3S2)).BeginInit();
             this.tabPageYear4Sem1.SuspendLayout();
-            this.tabPageYear4Sem2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY4S1)).BeginInit();
+            this.tabPageYear4Sem2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY4S2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // labelUniversityName
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.labelUniversityName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label1.Location = new System.Drawing.Point(270, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(247, 31);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "My university name";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelUniversityName.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.labelUniversityName.Location = new System.Drawing.Point(270, 9);
+            this.labelUniversityName.Name = "labelUniversityName";
+            this.labelUniversityName.Size = new System.Drawing.Size(247, 31);
+            this.labelUniversityName.TabIndex = 0;
+            this.labelUniversityName.Text = "My university name";
+            this.labelUniversityName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // labelFacultyName
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.labelFacultyName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label2.Location = new System.Drawing.Point(270, 56);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(247, 31);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "My faculty name";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelFacultyName.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.labelFacultyName.Location = new System.Drawing.Point(270, 56);
+            this.labelFacultyName.Name = "labelFacultyName";
+            this.labelFacultyName.Size = new System.Drawing.Size(247, 31);
+            this.labelFacultyName.TabIndex = 1;
+            this.labelFacultyName.Text = "My faculty name";
+            this.labelFacultyName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // groupBox1
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.buttonSave);
             this.groupBox1.Controls.Add(this.buttonAddCourse);
             this.groupBox1.Controls.Add(this.textBoxGrade);
             this.groupBox1.Controls.Add(this.textBoxCourseCredit);
@@ -266,6 +268,15 @@
             this.tabPageYear2Sem1.Text = "Year 2 Sem 1";
             this.tabPageYear2Sem1.UseVisualStyleBackColor = true;
             // 
+            // dataGridViewY2S1
+            // 
+            this.dataGridViewY2S1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewY2S1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewY2S1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewY2S1.Name = "dataGridViewY2S1";
+            this.dataGridViewY2S1.Size = new System.Drawing.Size(768, 167);
+            this.dataGridViewY2S1.TabIndex = 0;
+            // 
             // tabPageYear2Sem2
             // 
             this.tabPageYear2Sem2.Controls.Add(this.dataGridViewY2S2);
@@ -275,15 +286,6 @@
             this.tabPageYear2Sem2.TabIndex = 3;
             this.tabPageYear2Sem2.Text = "Year 2 Sem 2";
             this.tabPageYear2Sem2.UseVisualStyleBackColor = true;
-            // 
-            // dataGridViewY2S1
-            // 
-            this.dataGridViewY2S1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewY2S1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewY2S1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewY2S1.Name = "dataGridViewY2S1";
-            this.dataGridViewY2S1.Size = new System.Drawing.Size(768, 167);
-            this.dataGridViewY2S1.TabIndex = 0;
             // 
             // dataGridViewY2S2
             // 
@@ -304,6 +306,15 @@
             this.tabPageYear3Sem1.Text = "Year 3 Sem 1";
             this.tabPageYear3Sem1.UseVisualStyleBackColor = true;
             // 
+            // dataGridViewY3S1
+            // 
+            this.dataGridViewY3S1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewY3S1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewY3S1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewY3S1.Name = "dataGridViewY3S1";
+            this.dataGridViewY3S1.Size = new System.Drawing.Size(768, 167);
+            this.dataGridViewY3S1.TabIndex = 0;
+            // 
             // tabPageYear3Sem2
             // 
             this.tabPageYear3Sem2.Controls.Add(this.dataGridViewY3S2);
@@ -313,15 +324,6 @@
             this.tabPageYear3Sem2.TabIndex = 5;
             this.tabPageYear3Sem2.Text = "Year 3 Sem 2";
             this.tabPageYear3Sem2.UseVisualStyleBackColor = true;
-            // 
-            // dataGridViewY3S1
-            // 
-            this.dataGridViewY3S1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewY3S1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewY3S1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewY3S1.Name = "dataGridViewY3S1";
-            this.dataGridViewY3S1.Size = new System.Drawing.Size(768, 167);
-            this.dataGridViewY3S1.TabIndex = 0;
             // 
             // dataGridViewY3S2
             // 
@@ -342,6 +344,15 @@
             this.tabPageYear4Sem1.Text = "Year 4 Sem 1";
             this.tabPageYear4Sem1.UseVisualStyleBackColor = true;
             // 
+            // dataGridViewY4S1
+            // 
+            this.dataGridViewY4S1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewY4S1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewY4S1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewY4S1.Name = "dataGridViewY4S1";
+            this.dataGridViewY4S1.Size = new System.Drawing.Size(768, 167);
+            this.dataGridViewY4S1.TabIndex = 0;
+            // 
             // tabPageYear4Sem2
             // 
             this.tabPageYear4Sem2.Controls.Add(this.dataGridViewY4S2);
@@ -352,15 +363,6 @@
             this.tabPageYear4Sem2.Text = "Year 4 Sem 2";
             this.tabPageYear4Sem2.UseVisualStyleBackColor = true;
             // 
-            // dataGridViewY4S1
-            // 
-            this.dataGridViewY4S1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewY4S1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewY4S1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewY4S1.Name = "dataGridViewY4S1";
-            this.dataGridViewY4S1.Size = new System.Drawing.Size(768, 167);
-            this.dataGridViewY4S1.TabIndex = 0;
-            // 
             // dataGridViewY4S2
             // 
             this.dataGridViewY4S2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -370,6 +372,16 @@
             this.dataGridViewY4S2.Size = new System.Drawing.Size(768, 167);
             this.dataGridViewY4S2.TabIndex = 0;
             // 
+            // buttonSave
+            // 
+            this.buttonSave.Location = new System.Drawing.Point(396, 147);
+            this.buttonSave.Name = "buttonSave";
+            this.buttonSave.Size = new System.Drawing.Size(87, 31);
+            this.buttonSave.TabIndex = 9;
+            this.buttonSave.Text = "Save";
+            this.buttonSave.UseVisualStyleBackColor = true;
+            this.buttonSave.Click += new System.EventHandler(this.Savefile);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -377,8 +389,8 @@
             this.ClientSize = new System.Drawing.Size(800, 485);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelFacultyName);
+            this.Controls.Add(this.labelUniversityName);
             this.Name = "Form1";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
@@ -389,16 +401,16 @@
             this.tabPageYear1Sem2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY1S2)).EndInit();
             this.tabPageYear2Sem1.ResumeLayout(false);
-            this.tabPageYear2Sem2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY2S1)).EndInit();
+            this.tabPageYear2Sem2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY2S2)).EndInit();
             this.tabPageYear3Sem1.ResumeLayout(false);
-            this.tabPageYear3Sem2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY3S1)).EndInit();
+            this.tabPageYear3Sem2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY3S2)).EndInit();
             this.tabPageYear4Sem1.ResumeLayout(false);
-            this.tabPageYear4Sem2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY4S1)).EndInit();
+            this.tabPageYear4Sem2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewY4S2)).EndInit();
             this.ResumeLayout(false);
 
@@ -406,8 +418,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelUniversityName;
+        private System.Windows.Forms.Label labelFacultyName;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button buttonAddCourse;
         private System.Windows.Forms.TextBox textBoxGrade;
@@ -435,6 +447,7 @@
         private System.Windows.Forms.DataGridView dataGridViewY4S1;
         private System.Windows.Forms.TabPage tabPageYear4Sem2;
         private System.Windows.Forms.DataGridView dataGridViewY4S2;
+        private System.Windows.Forms.Button buttonSave;
     }
 }
 
